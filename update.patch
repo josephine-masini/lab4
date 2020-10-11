@@ -1,0 +1,10 @@
+25,26c25,26
+< PATCHLEVEL = 01
+< SUBLEVEL = -rc1
+---
+> PATCHLEVEL = 02
+> SUBLEVEL = -rc2
+54c54
+< export	SHELL CC GCC
+---
+> export	SHELL 

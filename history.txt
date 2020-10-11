@@ -224,3 +224,75 @@
   224  grep -wi "singh"
   225  grep -wi "singh" sardar_power.txt 
   226  history > history.txt
+  227  git add history.txt
+  228  git commit -m "question 4 à 6"
+  229  rm sardar_power.txt
+  230  ls
+  231  mv history.txt ../
+  232  ls
+  233  cd ..
+  234  ls
+  235  git log
+  236  ls
+  237  git status
+  238  git add history.txt 
+  239  git add sardar/history.txt 
+  240  ls
+  241  cat history.txt 
+  242  ls
+  243  git status
+  244  git add Compte\ rendu\ lab4.md Capture\ du\ 2020-10-11\ 20-55-15.png 
+  245  git commit --amend
+  246  git log
+  247  ls
+  248  ls no*
+  249  ls -a
+  250  vim .lightbulb 
+  251  ls
+  252  grep -wi "singh" sardar/
+  253  cd sardar
+  254  grep - wi "singh" *
+  255  grep -wi "singh" *
+  256  grep -wi "singh" * | wc -l
+  257  grep -wi "singh" "santa" * | wc -l
+  258  grep -win 
+  259  grep "singh" * 
+  260  grep -i "singh"
+  261  grep -i "singh" *
+  262  grep -i "singh" * | grep -i "santa"
+  263  grep -i "singh" * | grep -i "santa" | wc -l
+  264  grep --help
+  265  grep -i "singh" * | grep -i "santa" | grep -v "banta "
+  266  grep -i "singh" * | grep -i "santa" | grep -v "banta"
+  267  grep -i "singh" * | grep -i "santa" | grep -vi "banta"
+  268  grep -i "singh" * | grep -i "santa" | grep -vi "banta" | wc -l
+  269  cd ..
+  270  find . -name "*.txt"
+  271  cp answering-machine.txt ../test-commande-locat.txt
+  272  locate test-commande-locat.txt
+  273  man locate
+  274  ls
+  275  locate test-commande-locat.txt
+  276  ls
+  277  cd ..
+  278  locate test-commande-locat.txt
+  279  updatedb
+  280  sudo updatedb
+  281  locate test-commande-locat.txt
+  282  cd 5AS05-partie4/
+  283  file noyau.v1 
+  284  cat noyau.v1 
+  285  ls
+  286  diff noyau.v1 noyau.v2
+  287  diff noyau.v1 noyau.v2 > update.patch
+  288  ls
+  289  patch noyau.v1 < update.patch
+  290  diff noyau.v1 noyau.v2 
+  291  git status
+  292  git add noyau.v1
+  293  git add update.patch
+  294  git commit -m "question 14 à 16"
+  295  git add Compte\ rendu\ lab4.md 
+  296  git add Capture\ du\ 2020-10-11\ 22-10-23.png 
+  297  git commit -m "rédaction compte rendu"
+  298  history > history.txt

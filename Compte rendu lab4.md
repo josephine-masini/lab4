@@ -22,13 +22,13 @@ Joséphine Masini
 
 6.  On utilise la commande ``` grep -wi "singh" sardard_power.txt``` . On obtient l'affichage suivant : 
 
-![Résultat de la commande](capture1.png)
+![Résultat de la commande](images/capture1.png)
 
 7. On utilise la commande : ```rm sardar_power.txt``` , pour supprimer le fichier en étant dans le répertoire sardar.
 
 8. Toujours dans le répertoire sardar, on tape : ```grep  -wi "singh" *``` et on obtient l'affichage suivant :
 
-![Résultat de la commande](capture2.png)
+![Résultat de la commande](images/capture2.png)
 
 9. On reprend la commande précédente : ```grep  -wi "singh" * | wc -l``` , en lui ajoutant ```wc  -l``` après ```|```, ce qui permet de prendre le résultat d'une commande, et d'y ajouter une tâche à réaliser directement sur le contenu de celle-ci. On a trouvé le mot singh dans 117 lignes, parmis les 3 fichiers confondus du répertoire sardar.
 

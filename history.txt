@@ -1,0 +1,206 @@
+    1  cd /usr/share/plymouth/
+    2  ls
+    3  cd themes/
+    4  ls
+    5  sudo cp default.plymouth bubuntu.plymouth
+    6  cd bubun
+    7  ls
+    8  sudo cp default.plymouth bubuntu.plymouth
+    9  vim bubuntu.plymouth 
+   10  sudo rm bubuntu.plymouth 
+   11  ls
+   12  sudo apt install vin
+   13  sudo apt install vim
+   14  vi
+   15  ls
+   16  l
+   17  ls
+   18  ls -lh
+   19  ls
+   20  sudo cp ubuntu-logo/ bubuntu-logo
+   21  sudo cp -r ubuntu-logo/ bubuntu-logo
+   22  cd bubuntu-logo/
+   23  ls
+   24  sudo apt install gimp
+   25  ls
+   26  sudo gimp ubuntu-logo.png 
+   27  ls
+   28  cd ..
+   29  ls
+   30  cd ubuntu-text/
+   31  ls
+   32  cd ..
+   33  cd ubuntu-logo/
+   34  ls
+   35  xdg-open ubuntu-logo16.png 
+   36  xdg-open ubuntu-logo.png 
+   37  vim ubuntu-logo.script 
+   38  ls
+   39  vim ubuntu-logo.plymouth 
+   40  ls
+   41  sudo vim ubuntu-logo.plymouth 
+   42  ls
+   43  sudo gimp ubuntu-logo.png 
+   44  ls
+   45  cd ..
+   46  ls
+   47  sudo mv bubuntu-logo/ ubuntu-logo-bak
+   48  ls
+   49  mv ubuntu-logo bubuntu-logo
+   50  sudo mv ubuntu-logo bubuntu-logo
+   51  mv ubuntu-logo-bak/ ubuntu-logo
+   52  sudo mv ubuntu-logo-bak/ ubuntu-logo
+   53  ls
+   54  cd bubuntu-logo/
+   55  ls
+   56  vim ubuntu-logo.script 
+   57  ls
+   58  sudo gimp ubuntu-logo.png 
+   59  exit
+   60  sudo update-alternatives --config default.plymouth
+   61  sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/bubuntu-logo/ubuntu-logo.plymouth 200
+   62  sudo update-alternatives --config default.plymouth
+   63  exit
+   64  cd /boot/
+   65  cd grub/
+   66  ls
+   67  sudo vim grub.cfg 
+   68  exit
+   69  sudo apt install git
+   70  git
+   71  man usermod
+   72  ls
+   73  cat /etc/passwd
+   74  sudo usermod -o 1000 josephine
+   75  sudo usermod -u 1000 josephine
+   76  sudo usermod -l josephine panda
+   77  exit
+   78  sudo passwd root
+   79  exit
+   80  ls
+   81  pwd
+   82  ls
+   83  sudo hostnamectl set masini-x220
+   84  sudo hostnamectl --help
+   85  sudo hostnamectl set-hostname masini-x220
+   86  exit
+   87  sudo apt install foomatic
+   88  git clone https://github.com/khachicha/5AS05-partie3.git
+   89  cd Deskstop
+   90  cd Bureau
+   91  mkdir lab3
+   92  cd lab3
+   93  git clone https://github.com/khachicha/5AS05-partie3.git
+   94  ls
+   95  cd 5AS05-partie3/
+   96  ls
+   97  ls -lrt
+   98  ls -lrth
+   99  ls -lrt
+  100  cd sardar/
+  101  ls
+  102  du -h
+  103  cd ..
+  104  du -h
+  105  ls -lrt
+  106  ls -lrth
+  107  ls -lrt
+  108  cd sardar/
+  109  ls -lrth
+  110  cd ..
+  111  ls -lrt
+  112  du Microsoft
+  113  du -sh Microsoft
+  114  stat Microsoft
+  115  ls -s
+  116  ls -r
+  117  ls -sr
+  118  ls -tr
+  119  ls -t
+  120  vim answering-machine.txt
+  121  git add answering-machine.txt
+  122  git commit -m "Réponse des questions 14 à 19"
+  123  git config --global --edit
+  124  git commit --amend --reset-author
+  125  git remote --help
+  126  git remote
+  127  git remote --help
+  128  git remote set-url origin https://github.com/josephine-masini/lab3.git
+  129  git log
+  130  git push master
+  131  git push
+  132  git pull
+  133  git merge main
+  134  git merge origin/main
+  135  git checkout main
+  136  ls
+  137  cp Compte\ rendu\ lab3.md ~
+  138  git checkout main
+  139  ls
+  140  git checkout master
+  141  ls
+  142  cp ~/Compte\ rendu\ lab3.md .
+  143  git add Compte\ rendu\ lab3.md 
+  144  git commit -m "Ajout compte rendu"
+  145  gits
+  146  git status
+  147  git push origin master
+  148  cd sardar
+  149  tail --help
+  150  tail -n 20 sardar3.txt
+  151  cd ..
+  152  grep --help
+  153  grep -w "trust" Microsoft
+  154  cd ..
+  155  grep -w "money" *
+  156  grep -R "money"
+  157  cd Bureau
+  158  mkdir lab4
+  159  cd lab4
+  160  git clone https://github.com/josephine-masini/lab4.git
+  161  touch "Compte rendu lab4.md"
+  162  ls
+  163  cd lqb
+  164  git status
+  165  tree
+  166  ls
+  167  mv Compte\ rendu\ lab4.md lab4/
+  168  ls
+  169  cd lab4/
+  170  git status
+  171  git add Compte\ rendu\ lab4.md 
+  172  git status
+  173  git commit -m " Creation du fichier "
+  174  git push
+  175  typora Compte\ rendu\ lab4.md 
+  176  sudo apt install typora
+  177  sudo snap install typora
+  178  typora Compte\ rendu\ lab4.md 
+  179  typora Compte\ rendu\ lab4.md &
+  180  git clone https://github.com/josephine-masini/lab4.git
+  181  ls
+  182  ll
+  183  cd ..
+  184  ls
+  185  rm lab4/ -r
+  186  rm lab4/ -rf
+  187  ls
+  188  git clone https://github.com/khachicha/5AS05-partie4.git
+  189  ls
+  190  cd 5AS05-partie4/
+  191  ls
+  192  git remote set-url origin https://github.com/josephine-masini/lab4.git
+  193  ls
+  194  touch "Compte rendu lab4.md"
+  195  vim Compte\ rendu\ lab4.md 
+  196  l
+  197  ls
+  198  git add Compte\ rendu\ lab4.md
+  199  git status
+  200  git commit -m "Add compte rendu"
+  201  git push
+  202  ll
+  203  typora Compte\ rendu\ lab4.md &
+  204  history
+  205  history 
+  206  history > history.txt
